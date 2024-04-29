@@ -10,31 +10,35 @@ const Button: React.FC<ButtonProps> = ({ label }) => {
       href="mailto:laryssa.brilhante@hotmail.com"
       className="
       bg-red-500
-      px-12 
-      py-5
-      md:px-6 
-      md:py-3
-      x:px-10 
-      xl:py-4
-      2xl:px-8 
-      2xl:py-4 
-      3xl:py-5
-      3xl:px-12
-      4xl:py-7
-      5xl:px-16
-      5xl:py-10
-      text-base 
+      text-base
+      py-4
+      px-10
       md:text-sm
-      2xl:text-xl 
+      md:py-2
+      md:px-3
+      md:mt-1
+      lg:text-base
+      lg:py-3
+      lg:px-4
+      lg:mt-3
+      xl:text-lg
+      xl:py-3
+      xl:px-4
+      xl:mt-4
+      2xl:py-4
+      2xl:px-6
+      2xl:text-xl
+      2xl:mt-5
+      3xl:py-4
+      3xl:px-8
       3xl:text-2xl
-      4xl:text-3xl
-      5xl:text-5xl 
+      3xl:mt-6
       text-white
       rounded-sm
       font-semibold
       "
     >
-      <h1>{label}</h1>
+      <span>{label}</span>
     </a>
   );
 };

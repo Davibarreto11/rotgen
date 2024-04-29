@@ -25,7 +25,7 @@ const NavBar: React.FC = () => {
         xl:py-6
         "
       >
-        <a className="w-24 md:w-32 lg:w-40 2xl:w-48 3xl:w-64" href="/">
+        <a className="w-24 md:w-32 lg:w-40 2xl:w-48 3xl:w-56" href="/">
           <img
             className="object-center"
             src="https://www.rotgen.com/static/media/logo.10756eca02640ea0754e.png"
@@ -64,7 +64,7 @@ const NavBar: React.FC = () => {
           >
             <li>
               <a
-                className="block py-2 hover:text-red-400 md:p-4 lg:text-xl 2xl:text-3xl 3xl:text-3xl 4xl:text-4xl"
+                className="block py-2 hover:text-red-400 md:p-4 lg:text-xl 2xl:text-2xl 3xl:text-3xl"
                 href="#about"
               >
                 Sobre
@@ -72,7 +72,7 @@ const NavBar: React.FC = () => {
             </li>
             <li>
               <a
-                className="block py-2 hover:text-red-400 md:p-4 lg:text-xl 2xl:text-3xl 3xl:text-3xl 4xl:text-4xl"
+                className="block py-2 hover:text-red-400 md:p-4 lg:text-xl 2xl:text-2xl 3xl:text-3xl"
                 href="#responsabilities"
               >
                 O que fazemos
@@ -80,7 +80,7 @@ const NavBar: React.FC = () => {
             </li>
             <li>
               <a
-                className="block py-2 hover:text-red-400 md:p-4 lg:text-xl 2xl:text-3xl 3xl:text-3xl 4xl:text-4xl"
+                className="block py-2 hover:text-red-400 md:p-4 lg:text-xl 2xl:text-2xl 3xl:text-3xl"
                 href="#contacts"
               >
                 Contatos
@@ -88,7 +88,7 @@ const NavBar: React.FC = () => {
             </li>
             <li>
               <a
-                className="block py-2 text-red-500 md:p-4 lg:text-xl 2xl:text-3xl 3xl:text-3xl 4xl:text-4xl"
+                className="block py-2 text-red-500 md:p-4 lg:text-xl 2xl:text-2xl 3xl:text-3xl"
                 href="mailto:gabrielferreira019@gmail.com"
               >
                 Peça um orçamento

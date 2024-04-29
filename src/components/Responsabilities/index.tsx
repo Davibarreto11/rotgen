@@ -1,44 +1,48 @@
 import Image from "next/image";
-import ImageUpdate from "../../assets/ImageUpdate.svg";
+import ImageUpdate from "../../assets/ImageAbout.svg";
 
 const Responsabilities: React.FC = () => {
   return (
     <div className="w-full flex flex-col justify-evenly md:flex-row items-center">
-      <div className="sm:w-1/2">
+      <div className="sm:w-[83.4%] md:w-[67%] space-x-3">
         <div
           className="
+              ml-3
               mb-2
-              text-xl
-              sm:text-2xl
-              font-semibold
+              md:mb-5
               sm:pt-6
+              text-2xl
+              sm:text-3xl
               md:text-xl
-              lg:text-3xl
-              xl:text-4xl
-              2xl:text-6xl
-              3xl:text-6xl
-              4xl:text-7xl
-              5xl:text-8xl"
+              font-semibold
+              lg:text-2xl
+              xl:text-[41px]
+              xl:leading-10
+              2xl:text-[42px]
+              2xl:leading-10
+              3xl:text-[52px]
+              3xl:leading-none
+              4xl:leading-normal"
         >
-          <strong className="leading-tight font-bold">
+          <strong className="">
             Nós te ajudamos a organizar seus exames online.
           </strong>
-          <p className="leading-tight text-white">
+          <p className="text-white font-bold">
             Interação é nosso nome do meio.
           </p>
         </div>
         <div
           className="
               text-white
-              text-sm
-              sm:text-base
-              md:text-xs
+              text-base
+              sm:text-lg
+              md:text-sm
               lg:text-base
-              xl:text-xl
-              2xl:text-3xl
+              xl:text-2xl
+              2xl:text-2xl
               3xl:text-3xl
-              5xl:text-6xl
-              pt-5"
+              4xl:text-4xl
+              "
         >
           <span>
             Apoiamos a <strong>presença online</strong> dos nossos clientes e
@@ -50,7 +54,7 @@ const Responsabilities: React.FC = () => {
           </span>
         </div>
       </div>
-      <div className="md:order-first sm:w-1/3">
+      <div className="md:order-first sm:w-[83.4%] lg:w-[45%] 4xl:w-[35%]">
         <Image
           className="object-center w-full"
           src={ImageUpdate}
