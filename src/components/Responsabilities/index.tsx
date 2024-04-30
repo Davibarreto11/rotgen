@@ -3,8 +3,8 @@ import ImageUpdate from "../../assets/ImageAbout.svg";
 
 const Responsabilities: React.FC = () => {
   return (
-    <div className="w-full flex flex-col justify-evenly md:flex-row items-center">
-      <div className="sm:w-[83.4%] md:w-[67%] space-x-3">
+    <div className="w-full flex flex-col justify-evenly lg:justify-around lg:flex-row items-center">
+      <div className="sm:w-[83.4%] lg:w-[60%] space-x-3">
         <div
           className="
               ml-3
@@ -13,14 +13,14 @@ const Responsabilities: React.FC = () => {
               sm:pt-6
               text-2xl
               sm:text-3xl
-              md:text-xl
+              md:text-2xl
               font-semibold
               lg:text-2xl
-              xl:text-[41px]
+              xl:text-[33px]
               xl:leading-10
-              2xl:text-[42px]
+              2xl:text-[34px]
               2xl:leading-10
-              3xl:text-[52px]
+              3xl:text-[44px]
               3xl:leading-none
               4xl:leading-normal"
         >
@@ -36,12 +36,12 @@ const Responsabilities: React.FC = () => {
               text-white
               text-base
               sm:text-lg
-              md:text-sm
+              md:text-lg
               lg:text-base
-              xl:text-2xl
-              2xl:text-2xl
-              3xl:text-3xl
-              4xl:text-4xl
+              xl:text-lg
+              2xl:text-xl
+              3xl:text-2xl
+              4xl:text-3xl
               "
         >
           <span>
@@ -54,7 +54,7 @@ const Responsabilities: React.FC = () => {
           </span>
         </div>
       </div>
-      <div className="md:order-first sm:w-[83.4%] lg:w-[45%] 4xl:w-[35%]">
+      <div className="md:order-first sm:w-[83.4%] lg:w-[35%] 4xl:w-[30%]">
         <Image
           className="object-center w-full"
           src={ImageUpdate}

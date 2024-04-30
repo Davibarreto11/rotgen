@@ -5,7 +5,7 @@ import Button from "../Button";
 
 const About: React.FC = () => {
   return (
-    <div className="w-full flex flex-col justify-evenly items-center md:justify-between md:flex-row">
+    <div className="w-full flex flex-col justify-evenly items-center md:justify-around md:flex-row">
       <div className="md:order-last w-full sm:w-[83.4%] md:w-[33.3%]">
         <Image
           className="object-center w-full"

@@ -22,6 +22,6 @@ const config: Config = {
       "4xl": "2050px",
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 };
 export default config;
