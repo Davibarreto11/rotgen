@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ImageUpdate from "../../assets/ImageAbout.svg";
+import ImageUpdate from "../../assets/ImageUpdate.svg";
 
 const Responsabilities: React.FC = () => {
   return (
@@ -18,9 +18,9 @@ const Responsabilities: React.FC = () => {
               lg:text-2xl
               xl:text-[33px]
               xl:leading-10
-              2xl:text-[34px]
+              2xl:text-[38px]
               2xl:leading-10
-              3xl:text-[44px]
+              3xl:text-[48px]
               3xl:leading-none
               4xl:leading-normal"
         >
@@ -54,7 +54,7 @@ const Responsabilities: React.FC = () => {
           </span>
         </div>
       </div>
-      <div className="md:order-first sm:w-[83.4%] lg:w-[35%] 4xl:w-[30%]">
+      <div className="lg:order-first sm:w-[70%] lg:w-[35%] 4xl:w-[30%]">
         <Image
           className="object-center w-full"
           src={ImageUpdate}

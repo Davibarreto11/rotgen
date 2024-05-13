@@ -8,9 +8,9 @@ const Features: React.FC = () => {
           className="
           font-bold
           text-xl
-          sm:text-xl
-          md:text-3xl
-          lg:text-3xl
+          sm:text-2xl
+          md:text-4xl
+          lg:text-4xl
           xl:text-4xl
           2xl:text-5xl
           3xl:text-6xl"
