@@ -7,8 +7,9 @@ const Features: React.FC = () => {
         <span
           className="
           font-bold
-          text-xl
-          sm:text-2xl
+          text-2xl
+          ms:text-xl
+          sm:text-3xl
           md:text-4xl
           lg:text-4xl
           xl:text-4xl
